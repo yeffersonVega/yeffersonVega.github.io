@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /images/      
+
+Sitemap: https://www.likebe.com/sitemap.xml

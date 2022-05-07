@@ -1,0 +1,1309 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+@media only screen and (max-width: 480px){
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        background: #000000;
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 5px;
+    }
+
+    a{
+        color:#ffffff;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    label{
+        font-size: 2.8vw;
+    }
+
+    #cabeza{
+        width: 100%;
+        height: 50vh;
+        padding-top: 5px;
+    }
+
+    #banner{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;     
+        margin-bottom: 5px;
+    }
+
+    #logo{
+        width: 20%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    #logo:hover {
+        transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+    }
+
+    .logo-movil{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    #titulo{
+        font-size: 3.8vw;
+    }
+
+    .textoCentrado{
+        text-align: center;
+    }
+
+    #redesSociales{
+        width: 50%;
+    }
+
+    .icoGrande{
+        font-size: 3.5vw;
+        margin: 5px;
+    }
+
+    .columna{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #ingreso{
+        background: #ff9d00;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    #rYouTube{
+        color: red;
+        cursor: pointer;
+    }
+
+    #rFacebook{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rWhatsapp{
+        color: #25d366;
+        cursor: pointer;
+    }
+
+    #rLinkedin{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rInstagram{
+        background: linear-gradient(#ba009e,#f3c400);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    #rTwitter{
+        color:#1a6ed8;
+        cursor: pointer;
+    }
+
+    #rTiktok{
+        background: linear-gradient(#00ece8,red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .redSocial:hover{
+        color: #ffffff !important;
+    }
+
+    #menu{
+        font-size: 2.8vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    #menu a:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .activo{
+        background: linear-gradient(#808080, #ffffff,#808080);
+        color: #000000;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+    }
+
+    .activo:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff)!important;
+        color: #000;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .contenedor{
+        width: 100%;
+        align-items: center;
+    }
+
+    #introLikeBe{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;    
+        align-items: center;
+    } 
+
+    .tamanoIframe{
+        width: 95%; 
+        height: 50vw;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .formulario2{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .control{
+        width: 50%;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .control-area{
+        width: 50%;
+        height: 20vh;
+    }
+
+    .boton{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .boton:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .cabezaCaja{
+        background: #ffffff;
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+        padding: 5px;
+    }
+
+    .tituloCaja{
+        background: linear-gradient(90deg, #808080, #ffffff,#808080);
+        font-weight: bold;
+        font-size: 3.5vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .caja{
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+    }
+
+    .cajaTexto{
+        margin: 25px;
+        padding: 25px;
+        text-align: justify;
+        font-size: 2.5vw;
+    }
+
+    #ubicacion{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #pie{
+        width: 100%;
+        height: 10vh;
+        margin-top: 10px;
+        border-top: 2px solid #ffffff;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 480px){
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        background: #000000;
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 5px;
+    }
+
+    a{
+        color:#ffffff;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    label{
+        font-size: 2.8vw;
+    }
+
+    #cabeza{
+        width: 100%;
+        height: 50vh;
+        padding-top: 5px;
+    }
+
+    #banner{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;     
+        margin-bottom: 5px;
+    }
+
+    #logo{
+        width: 20%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    #logo:hover {
+        transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+    }
+
+    .logo-movil{
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    #titulo{
+        font-size: 3.2vw;
+    }
+
+    .textoCentrado{
+        text-align: center;
+    }
+
+    #redesSociales{
+        width: 50%;
+    }
+
+    .icoGrande{
+        font-size: 3.5vw;
+        margin: 5px;
+    }
+
+    .columna{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #ingreso{
+        background: #ff9d00;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    #rYouTube{
+        color: red;
+        cursor: pointer;
+    }
+
+    #rFacebook{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rWhatsapp{
+        color: #25d366;
+        cursor: pointer;
+    }
+
+    #rLinkedin{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rInstagram{
+        background: linear-gradient(#ba009e,#f3c400);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    #rTwitter{
+        color:#1a6ed8;
+        cursor: pointer;
+    }
+
+    #rTiktok{
+        background: linear-gradient(#00ece8,red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .redSocial:hover{
+        color: #ffffff !important;
+    }
+
+    #menu{
+        font-size: 2.8vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    #menu a:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .activo{
+        background: linear-gradient(#808080, #ffffff,#808080);
+        color: #000000;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+    }
+
+    .activo:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff)!important;
+        color: #000;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .contenedor{
+        width: 100%;
+        align-items: center;
+    }
+
+    #introLikeBe{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;    
+        align-items: center;
+    } 
+
+    .tamanoIframe{
+        width: 95%; 
+        height: 50vw;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .formulario2{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .control{
+        width: 50%;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .control-area{
+        width: 50%;
+        height: 20vh;
+    }
+
+    .boton{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .boton:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .cabezaCaja{
+        background: #ffffff;
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+        padding: 5px;
+    }
+
+    .tituloCaja{
+        background: linear-gradient(90deg, #808080, #ffffff,#808080);
+        font-weight: bold;
+        font-size: 3.5vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .caja{
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+    }
+
+    .cajaTexto{
+        margin: 25px;
+        padding: 25px;
+        text-align: justify;
+        font-size: 2.5vw;
+    }
+
+    #ubicacion{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #pie{
+        width: 100%;
+        height: 10vh;
+        margin-top: 10px;
+        border-top: 2px solid #ffffff;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        background: #000000;
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 5px;
+    }
+
+    a{
+        color:#ffffff;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    label{
+        font-size: 2.1vw;
+    }
+
+    #cabeza{
+        width: 100%;
+        height: 50vh;
+        padding-top: 5px;
+    }
+
+    #banner{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;     
+        margin-bottom: 5px;
+    }
+
+    #logo{
+        width: 20%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    #logo:hover {
+        transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+    }
+
+    .logo-movil{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    #titulo{
+        font-size: 3.1vw;
+    }
+
+    .textoCentrado{
+        text-align: center;
+    }
+
+    #redesSociales{
+        width: 50%;
+    }
+
+    .icoGrande{
+        font-size: 3.9vw;
+        margin: 5px;
+    }
+
+    .columna{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #ingreso{
+        background: #ff9d00;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    #rYouTube{
+        color: red;
+        cursor: pointer;
+    }
+
+    #rFacebook{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rWhatsapp{
+        color: #25d366;
+        cursor: pointer;
+    }
+
+    #rLinkedin{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rInstagram{
+        background: linear-gradient(#ba009e,#f3c400);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    #rTwitter{
+        color:#1a6ed8;
+        cursor: pointer;
+    }
+
+    #rTiktok{
+        background: linear-gradient(#00ece8,red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .redSocial:hover{
+        color: #ffffff !important;
+    }
+
+    #menu{
+        font-size: 2.8vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    #menu a:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .activo{
+        background: linear-gradient(#808080, #ffffff,#808080);
+        color: #000000;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+    }
+
+    .activo:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff)!important;
+        color: #000;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .contenedor{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .grid-container{
+        width: 100%;
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 50% 50%;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    #introLikeBe{
+        width: 50%;
+        padding: 10px;
+        margin: 5px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    } 
+
+    .formulario{
+        width: 50%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .formulario2{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .control{
+        width: 80%;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .control-area{
+        width: 80%;
+        height: 20vh;
+    }
+
+    .boton{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .boton:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .cabezaCaja{
+        background: #ffffff;
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+        padding: 5px;
+    }
+
+    .tituloCaja{
+        background: linear-gradient(90deg, #808080, #ffffff,#808080);
+        font-weight: bold;
+        font-size: 2.8vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .caja{
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+    }
+
+    .cajaTexto{
+        margin: 25px;
+        padding: 25px;
+        text-align: justify;
+        font-size: 2.5vw;
+    }
+
+    #ubicacion{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #pie{
+        width: 100%;
+        height: 10vh;
+        margin-top: 10px;
+        border-top: 2px solid #ffffff;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0 auto;
+        width: 100%;
+        background: #000000;
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    a{
+        color:#ffffff;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    label{
+        font-size: 1.6vw;
+    }
+
+    #cabeza{
+        width: 100%;
+        height: 50vh;
+        padding-top: 5px;
+    }
+
+    #banner{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;     
+        margin-bottom: 5px;
+    }
+
+    #logo{
+        width: 20%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    #logo:hover {
+        transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+    }
+
+    .logo-movil{
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    #titulo{
+        font-size: 2.1vw;
+    }
+
+    .textoCentrado{
+        text-align: center;
+    }
+
+    #redesSociales{
+        width: 50%;
+    }
+
+    .icoGrande{
+        font-size: 2.8vw;
+        margin: 5px;
+    }
+
+    .columna{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #ingreso{
+        background: #ff9d00;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    #rYouTube{
+        color: red;
+        cursor: pointer;
+    }
+
+    #rFacebook{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rWhatsapp{
+        color: #25d366;
+        cursor: pointer;
+    }
+
+    #rLinkedin{
+        color: #1a6ed8;
+        cursor: pointer;
+    }
+
+    #rInstagram{
+        background: linear-gradient(#ba009e,#f3c400);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    #rTwitter{
+        color:#1a6ed8;
+        cursor: pointer;
+    }
+
+    #rTiktok{
+        background: linear-gradient(#00ece8,red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .redSocial:hover{
+        color: #ffffff !important;
+    }
+
+    #menu{
+        font-size: 1.8vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    #menu a:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .activo{
+        background: linear-gradient(#808080, #ffffff,#808080);
+        color: #000000;
+        height: 10vh;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -o-border-radius: 55px 55px 55px 55px;
+    }
+
+    .activo:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff)!important;
+        color: #000;
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .contenedor{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .grid-container{
+        width: 100%;
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    #introLikeBe{
+        width: 50%;
+        padding: 10px;
+        margin: 5px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    } 
+
+    .formulario{
+        width: 50%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .formulario2{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .control{
+        width: 70%;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .control-area{
+        width: 70%;
+        height: 20vh;
+    }
+
+    .boton{
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -o-border-radius: 5px 5px 5px 5px;
+    }
+
+    .boton:hover{
+        background: linear-gradient(#ffffff, #808080,#ffffff);
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .cabezaCaja{
+        background: #ffffff;
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+        padding: 5px;
+    }
+
+    .tituloCaja{
+        background: linear-gradient(90deg, #808080, #ffffff,#808080);
+        font-weight: bold;
+        font-size: 2.1vw;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+    }
+
+    .caja{
+        border: 1px solid #808080;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-border-radius: 25px 25px 25px 25px;
+        -moz-border-radius: 25px 25px 25px 25px;
+        -o-border-radius: 25px 25px 25px 25px;
+    }
+
+    .cajaTexto{
+        margin: 25px;
+        padding: 25px;
+        text-align: justify;
+        font-size: 1.5vw;
+    }
+
+    #ubicacion{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    #pie{
+        width: 100%;
+        height: 10vh;
+        margin-top: 10px;
+        border-top: 2px solid #ffffff;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+        padding: 10px;
+    }
+}
